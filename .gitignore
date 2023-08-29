@@ -31,3 +31,7 @@ google-services.json
 
 # Android Profiling
 *.hprof
+project/app/.gitignore
+project/.gitignore
+project/gradlew
+project/gradlew.bat
