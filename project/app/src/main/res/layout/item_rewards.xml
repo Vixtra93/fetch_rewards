@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txv_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="id" />
+
+    <TextView
+        android:id="@+id/txv_listId"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txv_id"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="listId" />
+
+    <TextView
+        android:id="@+id/txv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/txv_listId"
+        app:layout_constraintStart_toStartOf="@+id/txv_id"
+        app:layout_constraintTop_toBottomOf="@+id/txv_listId"
+        tools:text="name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

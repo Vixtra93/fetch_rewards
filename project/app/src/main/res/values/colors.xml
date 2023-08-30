@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="yellow_primary_color">#FFEB3B</color>
-    <color name="yellow_dark_primary">#FBC02D</color>
-    <color name="orange_secondary_color">#FF9800</color>
+    <color name="blue_primary_color">#B3E5FC</color>
+    <color name="blue_dark_primary">#4FC3F7</color>
+    <color name="gray_secondary_color">#424242</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#b3b7b3</color>
+
 </resources>
